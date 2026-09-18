@@ -14,3 +14,6 @@ body.social{--bg:#f4f2ed;--surface:#eae8e2;--text:#131a28;--muted:#58616e;--line
 .booking-note{font-size:10px!important;line-height:1.6;margin-top:15px!important;max-width:330px}.booking-note a{text-decoration:underline;text-underline-offset:3px}.title-row .booking-note{margin-bottom:0}.hero-copy .hero-location{margin-top:13px}
 
 @media(max-width:760px){.title-row>div{flex-wrap:wrap}.title-row .booking-note{flex-basis:100%;max-width:none;margin-top:0!important}}
+
+/* Verified public reputation, snapshot 2026-09-18. */
+.trust-strip{display:flex;align-items:center;justify-content:space-between;gap:22px;padding-block:24px;border-bottom:1px solid var(--line)}.trust-strip>a,.trust-strip>div{display:flex;flex-direction:column;gap:3px;min-width:0}.trust-strip strong{font-size:19px;line-height:1.3;letter-spacing:-.035em}.trust-strip>a>strong{font-size:30px}.trust-strip strong span{font-size:14px;color:var(--muted)}.trust-strip>a>span,.trust-strip>div>span,.trust-strip p{font-size:11px;color:var(--muted)}.trust-strip p a{color:var(--blue);display:inline-block;padding-block:5px}.hardware-note{font-size:12px;margin-top:16px}@media(max-width:600px){.trust-strip{flex-wrap:wrap;gap:18px}.trust-strip>p{flex-basis:100%;border-top:1px solid var(--line);padding-top:12px}.trust-strip strong{font-size:17px}}
